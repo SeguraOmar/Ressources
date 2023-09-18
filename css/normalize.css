@@ -381,7 +381,7 @@ template {
 }
 
 header {
-  background-color:lightyellow;
+  background-color: lightyellow;
 }
 
 h2 {
@@ -401,15 +401,16 @@ nav a {
 
   text-decoration: none;
   color: orange;
-  font-size: 23px;
-  padding: 1.2rem;
+  font-size: 20px;
+  padding: 0.8rem;
 
 }
 
 
 article p {
-display: inline;
-position: relative;
+  display: inline;
+  position: relative;
+
 
 
 }
@@ -424,8 +425,8 @@ body {
 
 
 .img1 {
-width: 350px;
-float: left;
+  width: 350px;
+  float: left;
 
 }
 
@@ -435,3 +436,8 @@ float: left;
   float: left;
 }
 
+nav {
+  width: 450px;
+  float: right;
+  margin-top: 2rem;
+}
