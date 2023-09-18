@@ -13,6 +13,8 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+
+  background-image: url(/img/fond.png);
 }
 
 /* Sections
@@ -405,12 +407,31 @@ nav a {
 }
 
 
-
-
-
 article p {
 display: inline;
 position: relative;
-left:10rem;
-word-wrap: break-word;
+
+
 }
+
+body {
+  margin: auto;
+  background-color: white;
+  width: 750px;
+  height: 100vh;
+}
+
+
+
+.img1 {
+width: 350px;
+float: left;
+
+}
+
+.img2 {
+
+  width: 350px;
+  float: left;
+}
+
